@@ -1,11 +1,8 @@
-  <manifest>
-  <remote name="BroadcomCM" fetch="git://github.com/BroadcomCM/" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="BroadcomCM" revision="master"/>
-  <project path="device/samsung/totoro" name="BroadcomCM/android_device_samsung_totoro" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/tassve" name="BroadcomCM/android_device_samsung_tassve" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/cori" name="BroadcomCM/android_device_samsung_cori" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" remote="BroadcomCM" revision="cm-7.2.0"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/samsung/tassve" name="Alberto96/android_device_samsung_tassve" remote="github" revision="ics"/>
+  <project path="device/samsung/bcm21553-common" name="Alberto96/android_device_samsung_bcm21553-common" remote="github" revision="ics"/>
+  <project path="kernel/samsung/bcm21553-common_ramdisk" name="Alberto96/android_device_samsung_bcm21553-common_ramdisk" remote="github" revision="master"/>
+  <project path="kernel/samsung/bcm21553-common" name="Alberto96/android_kernel_samsung_bcm21553-common" remote="github" revision="master"/>
+  <project path="vendor/samsung" name="Alberto96/android_vendor_samsung" remote="github" revision="ics"/>
 </manifest>
